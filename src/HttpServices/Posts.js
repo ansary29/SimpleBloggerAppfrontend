@@ -1,5 +1,5 @@
 import http from "./HttpRequests";
-const baseUrl = "http://127.0.0.1:5000";
+const baseUrl = "https://simpleappbackend.herokuapp.com/posts";
 
 //getting all posts
 export const GetAllPosts = () => http.get(`${baseUrl}/posts`);
